@@ -64,4 +64,4 @@ class Post(models.Model):
     author = models.ForeignKey(User)
 
     def __str__(self):
-        return self.self.title                      
+        return self.title                      
