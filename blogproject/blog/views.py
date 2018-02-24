@@ -1,7 +1,7 @@
 import markdown
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
-from .models import Post Category
+from .models import Post, Category
 
 def index(request):
     post_list = Post.objects.all().order_by('-created_time')
