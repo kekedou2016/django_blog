@@ -25,7 +25,7 @@ SECRET_KEY = 'd9el=0%u7623zrk+&59+pc#!#cnc#*zfjzsm(3e-5$)9bri!v!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', 'www.dzhaolife.us']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
