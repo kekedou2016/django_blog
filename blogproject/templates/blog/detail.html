@@ -9,7 +9,7 @@
                 <span class="post-date"><a href="#"><time class="entry-date"
                                                         datetime="{{ post.created_time }}">{{ post.created_time }}</time></a></span>
                 <span class="post-author"><a href="#">{{ post.author }}</a></span>
-                <span class="comments-link"><a href="#">4 comments</a></span>
+                <span class="comments-link"><a href="#">{{ post.comment_set.count }}</a></span>
                 <span class="views-count"><a href="#">588 views</a></span>
             </div>
         </header>
@@ -66,19 +66,16 @@
         <h3 class="widget-title">Contents</h3>
         <ul>
             <li>
-                <a href="#">教程特点</a>
+                <a href="#">Key features</a>
             </li>
             <li>
-                <a href="#">谁适合这个教程</a>
+                <a href="#">Online preview</a>
             </li>
             <li>
-                <a href="#">在线预览</a>
+                <a href="#">References</a>
             </li>
             <li>
-                <a href="#">资源列表</a>
-            </li>
-            <li>
-                <a href="#">获取帮助</a>
+                <a href="#">Help</a>
             </li>
         </ul>
     </div>
